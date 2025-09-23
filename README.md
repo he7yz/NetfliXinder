@@ -9,7 +9,8 @@
                                                                                           \/
 ```
 
-
-
 A University Assignment, under LDCW6123 Digital Competence Project.
 
+## Flowchart
+
+<img width="1361" height="1411" alt="netfliXinder" src="https://github.com/user-attachments/assets/ca640b8c-e003-4ff7-b9bf-c445d8f98bcc" />
