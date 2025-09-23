@@ -13,7 +13,6 @@ class NetfliXinder {
 private:
   void pauseScreen() const {
         cout << "\nPress Enter to continue...";
-        cin.ignore();
         cin.get();
     }
 
