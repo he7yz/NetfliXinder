@@ -5,6 +5,8 @@
 #include <limits> // for numeric stuffs
 // might need to include more later on, up to you guys
 
+//reverted.
+
 using namespace std;
 
 class NetfliXinder;
@@ -51,7 +53,7 @@ public:
       /   |   \_/ __ \   __\   __\|  | |  |\     / |  |/    \  / __ |/ __ \_  __ \    .'      `.
      /    |    \  ___/|  |  |  |  |  |_|  |/     \ |  |   |  \/ /_/ \  ___/|  | \/   <          >
      \____|__  /\___  >__|  |__|  |____/__/___/\  \|__|___|  /\____ |\___  >__|       `.      .'
-	     \/     \/                          \_/        \/      \/    \/             `.  .'
+	    \/     \/                          \_/        \/      \/    \/             `.  .'
                                                                                           \/
     )" << '\n';
     pauseScreen();
@@ -141,5 +143,4 @@ int main() {
 
   return 0;
 }
-
 
