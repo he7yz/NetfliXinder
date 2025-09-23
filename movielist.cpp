@@ -1,3 +1,18 @@
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <string>
+#include <limits> // for numeric stuffs
+#include <algorithm> // for std::shuffle
+#include <random>    // for std::default_random_engine
+// might need to include more later on, up to you guys
+
+using namespace std;
+
+class NetfliXinder;
+
+class NetfliXinder {
+private:
   struct Movie {
     string title;
     string genre;
@@ -45,9 +60,9 @@
     cout << "[]==============================================================================================[]\n";
     
     vector<Movie> shuffled = movies;
-    std::random_device rd;
-    std::default_random_engine rng(rd());
-    std::shuffle(std::begin(shuffled), std::end(shuffled), rng);
+    random_device rd;
+    default_random_engine rng(rd());
+    shuffle(begin(shuffled), end(shuffled), rng);
     
     for (size_t i = 0; i < shuffled.size(); ++i) {
       cout << "[" << (i + 1) << "] " << shuffled[i].title << endl;
