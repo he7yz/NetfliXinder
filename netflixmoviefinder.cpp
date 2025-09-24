@@ -8,6 +8,8 @@
 #include <cctype>    // for toupper
 // might need to include more later on, up to you guys
 
+//reverted.
+
 using namespace std;
 
 class NetfliXinder;
@@ -56,7 +58,7 @@ private:
   }
 
   void listAllMovies() const {
-    clrScreen();
+    clrScreen(); 
     cout << "List of All Movies\n";
     cout << "[]==============================================================================================[]\n";
     
@@ -247,7 +249,7 @@ public:
       /   |   \_/ __ \   __\   __\|  | |  |\     / |  |/    \  / __ |/ __ \_  __ \    .'      `.
      /    |    \  ___/|  |  |  |  |  |_|  |/     \ |  |   |  \/ /_/ \  ___/|  | \/   <          >
      \____|__  /\___  >__|  |__|  |____/__/___/\  \|__|___|  /\____ |\___  >__|       `.      .'
-	     \/     \/                          \_/        \/      \/    \/             `.  .'
+	    \/     \/                          \_/        \/      \/    \/             `.  .'
                                                                                           \/
     )" << '\n';
     pauseScreen();
@@ -336,4 +338,5 @@ int main() {
   app.run();
 
   return 0;
+
 }
