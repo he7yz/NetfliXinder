@@ -308,7 +308,10 @@ private:
     shuffle(begin(shuffled), end(shuffled), rng);
     
     for (size_t i = 0; i < shuffled.size(); ++i) {
-      cout << "[" << (i + 1) << "] " << shuffled[i].title << endl;
+      cout << "[" << (i + 1) << "] " << shuffled[i].title 
+      << shuffled[i].title 
+             << " | " << shuffled[i].genre
+             << " | Rating: " << fixed << setprecision(1) << shuffled[i].rating << "/10\n";
     }
     cout << "[]==============================================================================================[]\n";
 
