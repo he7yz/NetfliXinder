@@ -309,7 +309,6 @@ private:
     
     for (size_t i = 0; i < shuffled.size(); ++i) {
       cout << "[" << (i + 1) << "] " << shuffled[i].title 
-      << shuffled[i].title 
              << " | " << shuffled[i].genre
              << " | Rating: " << fixed << setprecision(1) << shuffled[i].rating << "/10\n";
     }
@@ -493,7 +492,7 @@ public:
       /   |   \_/ __ \   __\   __\|  | |  |\     / |  |/    \  / __ |/ __ \_  __ \    .'      `.
      /    |    \  ___/|  |  |  |  |  |_|  |/     \ |  |   |  \/ /_/ \  ___/|  | \/   <          >
      \____|__  /\___  >__|  |__|  |____/__/___/\  \|__|___|  /\____ |\___  >__|       `.      .'
-	     \/     \/                          \_/        \/      \/    \/             `.  .'      '.
+	     \/     \/                          \_/        \/      \/    \/             `.  .'      
                                                                                           \/
     )" << '\n';
     pauseScreen();
