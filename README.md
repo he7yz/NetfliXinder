@@ -9,7 +9,7 @@
                                                                                           \/
 ```
 
-A University Assignment, under LDCW6123 Digital Competence Project.
+A University Assignment, under LDCW6123 Digital Competence Project FCI3.
 
 ## Flowchart
 
