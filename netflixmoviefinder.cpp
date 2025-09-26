@@ -432,7 +432,7 @@ private:
       return a.rating > b.rating;
     });
     
-    cout << "Top 5 Movies by Rating:\n";
+    cout << "Top 10 Movies by Rating:\n";
     size_t numToShow = min(static_cast<size_t>(10), sorted.size());
     for (size_t i = 0; i < numToShow; ++i) {
       cout << "[" << (i + 1) << "] " << sorted[i].title 
