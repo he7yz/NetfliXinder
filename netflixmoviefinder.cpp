@@ -480,9 +480,15 @@ private:
     cout << "[]==============================================================================================[]\n";
 
     vector<Movie> sorted = movies;
+    
     sort(sorted.begin(), sorted.end(), [](const Movie &a, const Movie &b)
          { return a.rating > b.rating; });
 
+
+    sort(sorted.begin(), sorted.end(), [](const Movie& a, const Movie& b) {
+      return a.rating > b.rating;
+    });
+    
     cout << "Top 10 Movies by Rating:\n";
     size_t numToShow = min(static_cast<size_t>(10), sorted.size());
     for (size_t i = 0; i < numToShow; ++i)
